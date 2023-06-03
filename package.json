@@ -1,0 +1,32 @@
+{
+  "name": "mdx-check-mate",
+  "version": "1.0.0",
+  "description": "helper tool that checks mdx validity and extracts info such as images",
+  "main": "evaluate.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroWebStacks/mdx-check-mate.git"
+  },
+  "keywords": [
+    "mdx",
+    "check",
+    "validation"
+  ],
+  "author": "wassfila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MicroWebStacks/mdx-check-mate/issues"
+  },
+  "homepage": "https://github.com/MicroWebStacks/mdx-check-mate#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "unist-util-parents": "^2.0.1",
+    "unist-util-visit": "^4.1.2"
+  }
+}
